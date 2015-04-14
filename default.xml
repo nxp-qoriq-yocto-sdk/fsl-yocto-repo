@@ -26,9 +26,7 @@
 
   <remote fetch="http://sw-stash.freescale.net/scm/yocto" name="fsl-release"/>
 
-  <project remote="fsl-release" name="meta-freescale" path="sources/meta-fsl-bsp-release" revision="fido_freescale" >
-     <copyfile src="imx/tools/fsl-setup-release.sh" dest="fsl-setup-release.sh"/>
-  </project>
+  <project remote="fsl-release" name="meta-freescale" path="sources/meta-freescale" revision="fido_freescale" />
 
   <project remote="fsl-release" name="meta-freescale-private" path="sources/meta-freescale-private" revision="master" />
 
