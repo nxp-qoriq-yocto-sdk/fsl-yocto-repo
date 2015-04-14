@@ -17,4 +17,5 @@ $: mkdir fsl--yocto-bsp
 $: cd fsl-yocto-bsp
 $: repo init -u http://sw-stash.freescale.net/scm/yocto/fsl-yocto-repo.git -b fido
 $: repo sync
+$: product=<imx or qoriq> fsl-setup-env <build-dir>
 
