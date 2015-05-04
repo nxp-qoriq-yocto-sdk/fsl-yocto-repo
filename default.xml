@@ -25,6 +25,4 @@
         <copyfile dest="fsl-setup-env" src="common/fsl-setup-env"/>
   </project>
 
-  <project remote="fsl-release" name="meta-freescale-private" path="sources/meta-freescale-private" revision="master" />
-
 </manifest>
