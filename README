@@ -13,7 +13,7 @@ $: PATH=${PATH}:~/bin
 Download the BSP source:
 
 $: PATH=${PATH}:~/bin
-$: mkdir fsl--yocto-bsp
+$: mkdir fsl-yocto-bsp
 $: cd fsl-yocto-bsp
 $: repo init -u http://sw-stash.freescale.net/scm/yocto/fsl-yocto-repo.git -b fido
 $: repo sync
