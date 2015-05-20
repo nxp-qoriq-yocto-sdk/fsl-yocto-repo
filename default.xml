@@ -13,13 +13,13 @@
   <project remote="yocto" revision="master" name="meta-virtualization" path="sources/meta-virtualization"/>
 
   <project remote="oe" revision="fido" name="meta-openembedded" path="sources/meta-openembedded"/>
-  <project remote="freescale" revision="fido" name="meta-fsl-arm-extra" path="sources/meta-fsl-arm-extra"/>
   <project remote="freescale" revision="fido" name="meta-fsl-demos" path="sources/meta-fsl-demos"/>
 
   <project remote="OSSystems" revision="master" name="meta-browser" path="sources/meta-browser" />
   <project remote="QT5" revision="fido" name="meta-qt5" path="sources/meta-qt5" />
 
   <remote fetch="http://sw-stash.freescale.net/scm/yocto" name="fsl-release"/>
+  <project remote="fsl-release" revision="fido" name="meta-freescale-extra" path="sources/meta-freescale-extra"/>
 
   <project remote="fsl-release" name="meta-freescale" path="sources/meta-freescale" revision="fido_freescale">
         <copyfile dest="fsl-setup-env" src="common/fsl-setup-env"/>
