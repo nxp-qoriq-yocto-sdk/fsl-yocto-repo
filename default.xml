@@ -9,14 +9,14 @@
   <remote fetch="git://github.com/OSSystems" name="OSSystems"/>
   <remote fetch="git://github.com/meta-qt5"  name="QT5"/>
 
-  <project remote="yocto" revision="fido" name="poky" path="sources/poky"/>
-  <project remote="yocto" revision="master" name="meta-virtualization" path="sources/meta-virtualization"/>
+  <project remote="yocto" revision="508c4cac320d78a983ce105a78c0599102e2c349" name="poky" path="sources/poky"/>
+  <project remote="yocto" revision="1c1be83047035da25a14c28ac1f9453f7fdc67bc" name="meta-virtualization" path="sources/meta-virtualization"/>
 
-  <project remote="oe" revision="fido" name="meta-openembedded" path="sources/meta-openembedded"/>
-  <project remote="freescale" revision="fido" name="meta-fsl-demos" path="sources/meta-fsl-demos"/>
+  <project remote="oe" revision="5b0305d9efa4b5692cd942586fb7aa92dba42d59" name="meta-openembedded" path="sources/meta-openembedded"/>
+  <project remote="freescale" revision="836bdf5a9d500ed258f1ddc07d89eca74a704098" name="meta-fsl-demos" path="sources/meta-fsl-demos"/>
 
-  <project remote="OSSystems" revision="master" name="meta-browser" path="sources/meta-browser" />
-  <project remote="QT5" revision="fido" name="meta-qt5" path="sources/meta-qt5" />
+  <project remote="OSSystems" revision="0cc0419a6a778402f93936859cdacf01eb756bb1" name="meta-browser" path="sources/meta-browser" />
+  <project remote="QT5" revision="3ccdc239b02aca03dc1e9316b7c5c870b3b59368" name="meta-qt5" path="sources/meta-qt5" />
 
   <remote fetch="http://sw-stash.freescale.net/scm/yocto" name="fsl-release"/>
   <project remote="fsl-release" revision="fido" name="meta-freescale-extra" path="sources/meta-freescale-extra"/>
