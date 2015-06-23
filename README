@@ -15,7 +15,7 @@ Download the BSP source:
 $: PATH=${PATH}:~/bin
 $: mkdir fsl-yocto-bsp
 $: cd fsl-yocto-bsp
-$: repo init -u git://git.freescale.com/yocto/fsl-yocto-bsp.git -b transition_beta1
+$: repo init -u git://git.freescale.com/yocto/fsl-yocto-repo.git -b transition_beta1
 $: repo sync
 $: MACHINE=<machine> . fsl-setup-env -b <build-dir>
 
