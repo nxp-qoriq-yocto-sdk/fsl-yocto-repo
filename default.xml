@@ -21,8 +21,8 @@
   <remote fetch="http://sw-stash.freescale.net/scm/yocto" name="fsl-release"/>
   <project remote="fsl-release" revision="fido" name="meta-freescale-extra" path="sources/meta-freescale-extra"/>
 
-  <project remote="fsl-release" name="meta-freescale" path="sources/meta-freescale" revision="fido_freescale_backup">
-        <copyfile dest="fsl-setup-env" src="common/fsl-setup-env"/>
+  <project remote="fsl-release" name="meta-freescale" path="sources/meta-freescale" revision="fido_freescale">
+        <copyfile dest="fsl-setup-env" src="scripts/fsl-setup-env"/>
   </project>
 
 </manifest>
