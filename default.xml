@@ -3,6 +3,7 @@
 
   <default sync-j="2"/>
 
+  <remote fetch="git://git.freescale.com/yocto" name="fsl-release"/>
   <remote fetch="git://git.yoctoproject.org" name="yocto"/>
   <remote fetch="git://github.com/Freescale" name="freescale"/>
   <remote fetch="git://git.openembedded.org" name="oe"/>
@@ -10,7 +11,7 @@
   <remote fetch="git://github.com/meta-qt5"  name="QT5"/>
 
   <project remote="yocto" revision="f366ff2c03885f0ac17415dfbc8f25b2b760b841" name="poky" path="sources/poky"/>
-  <project remote="yocto" revision="fido" name="meta-virtualization" path="sources/meta-virtualization"/>
+  <project remote="yocto" revision="0277cbcb47db4239d0a4aa3b37c5c6a705070951" name="meta-virtualization" path="sources/meta-virtualization"/>
 
   <project remote="oe" revision="5b0305d9efa4b5692cd942586fb7aa92dba42d59" name="meta-openembedded" path="sources/meta-openembedded"/>
   <project remote="freescale" revision="1ae8a2d8e9899f0182fa5227acc2b7b6c78039ff" name="meta-fsl-demos" path="sources/meta-fsl-demos"/>
@@ -18,10 +19,9 @@
   <project remote="OSSystems" revision="30b8d6b3d0d6501c56ef6967a2fa73a3d4bf5fe9" name="meta-browser" path="sources/meta-browser" />
   <project remote="QT5" revision="3ccdc239b02aca03dc1e9316b7c5c870b3b59368" name="meta-qt5" path="sources/meta-qt5" />
 
-  <remote fetch="http://sw-stash.freescale.net/scm/yocto" name="fsl-release"/>
   <project remote="fsl-release" revision="fido" name="meta-freescale-extra" path="sources/meta-freescale-extra"/>
 
-  <project remote="fsl-release" name="meta-freescale" path="sources/meta-freescale" revision="fido_freescale">
+  <project remote="fsl-release" name="meta-freescale" path="sources/meta-freescale" revision="9482c1902c0436002c364c366e9d151a205b9fe0">
         <copyfile dest="fsl-setup-env" src="scripts/fsl-setup-env"/>
   </project>
 
