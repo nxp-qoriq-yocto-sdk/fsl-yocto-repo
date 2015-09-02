@@ -8,6 +8,7 @@
   <remote fetch="git://git.openembedded.org" name="oe"/>
   <remote fetch="git://github.com/OSSystems" name="OSSystems"/>
   <remote fetch="git://github.com/meta-qt5"  name="QT5"/>
+  <remote fetch="http://git.linaro.org/openembedded"  name="linaro"/>
 
   <project remote="yocto" revision="fido" name="poky" path="sources/poky"/>
   <project remote="yocto" revision="fido" name="meta-virtualization" path="sources/meta-virtualization"/>
@@ -17,6 +18,7 @@
 
   <project remote="OSSystems" revision="master" name="meta-browser" path="sources/meta-browser" />
   <project remote="QT5" revision="fido" name="meta-qt5" path="sources/meta-qt5" />
+  <project remote="linaro" revision="fido" name="meta-linaro" path="sources/meta-linaro" />
 
   <remote fetch="http://sw-stash.freescale.net/scm/yocto" name="fsl-release"/>
   <project remote="fsl-release" revision="fido" name="meta-freescale-extra" path="sources/meta-freescale-extra"/>
