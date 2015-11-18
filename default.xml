@@ -23,7 +23,7 @@
   <project remote="linaro" revision="3f1933242062d1cf473d20b86fa4582963ff9441" name="meta-linaro" path="sources/meta-linaro" />
   <project remote="fsl-release" revision="ced26c806cb566b1400a2f4f26a94d8d44d13233" name="meta-freescale-extra" path="sources/meta-freescale-extra"/>
   <project remote="fsl-release" revision="03443a95d6935c55b1defca1bb3f4d1da13b656e" name="meta-freescale-internal" path="sources/meta-freescale-internal"/>
-  <project remote="fsl-release" revision="3964a95494c94bcaf662079480c24bb038fa0b2d" name="meta-freescale" path="sources/meta-freescale">
+  <project remote="fsl-release" revision="01e6edc90fa59def729e70038f4037a838b41fa5" name="meta-freescale" path="sources/meta-freescale">
         <copyfile dest="fsl-setup-env" src="scripts/fsl-setup-env"/>
   </project>
 
