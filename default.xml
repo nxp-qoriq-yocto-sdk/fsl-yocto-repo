@@ -1,30 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-
-  <default sync-j="2"/>
-
-  <remote fetch="http://sw-stash.freescale.net/scm/yocto" name="fsl-release"/>
-  <remote fetch="git://git.yoctoproject.org" name="yocto"/>
-  <remote fetch="git://github.com/Freescale" name="freescale"/>
-  <remote fetch="git://git.openembedded.org" name="oe"/>
   <remote fetch="git://github.com/OSSystems" name="OSSystems"/>
-  <remote fetch="git://github.com/meta-qt5"  name="QT5"/>
-  <remote fetch="http://git.linaro.org/openembedded"  name="linaro"/>
-
-  <project remote="yocto" revision="b74ea963cefffad9fbd91d4eb9b240f6a8c86cd0" name="poky" path="sources/poky"/>
-  <project remote="yocto" revision="aac972c0b88ce67a7bc9fcd83ee8793b61d4fff7" name="meta-security" path="sources/meta-security"/>
-  <project remote="yocto" revision="0277cbcb47db4239d0a4aa3b37c5c6a705070951" name="meta-virtualization" path="sources/meta-virtualization"/>
-  <project remote="yocto" revision="0842ae59ce7f752aabb2459510739ec4fff8b33d" name="meta-cloud-services" path="sources/meta-cloud-services"/>
-  <project remote="yocto" revision="d5a2a31aaad8f6bdf19860f7a858b10d7dba08b6" name="meta-java" path="sources/meta-java"/>
-  <project remote="oe" revision="214e1801d0efc38d3b6142bdc0d8e58ca593e34c" name="meta-openembedded" path="sources/meta-openembedded"/>
-  <project remote="freescale" revision="17f9da65efb5c65c1d44b5cc18584034b29a742b" name="meta-fsl-demos" path="sources/meta-fsl-demos"/>
-  <project remote="OSSystems" revision="6ae140b29f0201fe3bb470da8c96c9e142294ebf" name="meta-browser" path="sources/meta-browser" />
-  <project remote="QT5" revision="90919b9d86988e7da01fa2c0a07246b5b5600a5d" name="meta-qt5" path="sources/meta-qt5" />
-  <project remote="linaro" revision="3f1933242062d1cf473d20b86fa4582963ff9441" name="meta-linaro" path="sources/meta-linaro" />
-  <project remote="fsl-release" revision="ced26c806cb566b1400a2f4f26a94d8d44d13233" name="meta-freescale-extra" path="sources/meta-freescale-extra"/>
-  <project remote="fsl-release" revision="03443a95d6935c55b1defca1bb3f4d1da13b656e" name="meta-freescale-internal" path="sources/meta-freescale-internal"/>
-  <project remote="fsl-release" revision="01e6edc90fa59def729e70038f4037a838b41fa5" name="meta-freescale" path="sources/meta-freescale">
-        <copyfile dest="fsl-setup-env" src="scripts/fsl-setup-env"/>
+  <remote fetch="git://github.com/meta-qt5" name="QT5"/>
+  <remote fetch="git://github.com/Freescale" name="freescale"/>
+  <remote fetch="http://sw-stash.freescale.net/scm/yocto" name="fsl-release"/>
+  <remote fetch="http://git.linaro.org/openembedded" name="linaro"/>
+  <remote fetch="git://git.openembedded.org" name="oe"/>
+  <remote fetch="git://git.yoctoproject.org" name="yocto"/>
+  
+  <default sync-j="2"/>
+  
+  <project name="meta-browser" path="sources/meta-browser" remote="OSSystems" revision="6ae140b29f0201fe3bb470da8c96c9e142294ebf"/>
+  <project name="meta-cloud-services" path="sources/meta-cloud-services" remote="yocto" revision="0842ae59ce7f752aabb2459510739ec4fff8b33d"/>
+  <project name="meta-freescale" path="sources/meta-freescale" remote="fsl-release" revision="01e6edc90fa59def729e70038f4037a838b41fa5">
+    <copyfile dest="fsl-setup-env" src="scripts/fsl-setup-env"/>
   </project>
-
+  <project name="meta-freescale-extra" path="sources/meta-freescale-extra" remote="fsl-release" revision="ced26c806cb566b1400a2f4f26a94d8d44d13233"/>
+  <project name="meta-freescale-internal" path="sources/meta-freescale-internal" remote="fsl-release" revision="03443a95d6935c55b1defca1bb3f4d1da13b656e"/>
+  <project name="meta-fsl-demos" path="sources/meta-fsl-demos" remote="freescale" revision="17f9da65efb5c65c1d44b5cc18584034b29a742b"/>
+  <project name="meta-java" path="sources/meta-java" remote="yocto" revision="d5a2a31aaad8f6bdf19860f7a858b10d7dba08b6"/>
+  <project name="meta-linaro" path="sources/meta-linaro" remote="linaro" revision="3f1933242062d1cf473d20b86fa4582963ff9441"/>
+  <project name="meta-openembedded" path="sources/meta-openembedded" remote="oe" revision="214e1801d0efc38d3b6142bdc0d8e58ca593e34c"/>
+  <project name="meta-qt5" path="sources/meta-qt5" remote="QT5" revision="90919b9d86988e7da01fa2c0a07246b5b5600a5d"/>
+  <project name="meta-security" path="sources/meta-security" remote="yocto" revision="aac972c0b88ce67a7bc9fcd83ee8793b61d4fff7"/>
+  <project name="meta-virtualization" path="sources/meta-virtualization" remote="yocto" revision="0277cbcb47db4239d0a4aa3b37c5c6a705070951"/>
+  <project name="poky" path="sources/poky" remote="yocto" revision="b74ea963cefffad9fbd91d4eb9b240f6a8c86cd0"/>
 </manifest>
