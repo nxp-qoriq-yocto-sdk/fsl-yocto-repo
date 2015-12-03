@@ -12,7 +12,7 @@
   
   <project name="meta-browser" path="sources/meta-browser" remote="OSSystems" revision="6ae140b29f0201fe3bb470da8c96c9e142294ebf"/>
   <project name="meta-cloud-services" path="sources/meta-cloud-services" remote="yocto" revision="0842ae59ce7f752aabb2459510739ec4fff8b33d"/>
-  <project name="meta-freescale" path="sources/meta-freescale" remote="fsl-release" revision="1418de20e7d6d2b3560c64cd73b5d78fdf47c15c">
+  <project name="meta-freescale" path="sources/meta-freescale" remote="fsl-release" revision="7fb32a20983a0ebd5503eb42e851550b0deb8679">
     <copyfile dest="fsl-setup-env" src="scripts/fsl-setup-env"/>
   </project>
   <project name="meta-freescale-extra" path="sources/meta-freescale-extra" remote="fsl-release" revision="ced26c806cb566b1400a2f4f26a94d8d44d13233"/>
