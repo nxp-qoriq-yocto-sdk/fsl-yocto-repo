@@ -16,7 +16,7 @@
     <copyfile dest="fsl-setup-env" src="scripts/fsl-setup-env"/>
   </project>
   <project name="meta-freescale-extra" path="sources/meta-freescale-extra" remote="fsl-release" revision="ced26c806cb566b1400a2f4f26a94d8d44d13233"/>
-  <project name="meta-freescale-internal" path="sources/meta-freescale-internal" remote="fsl-release" revision="73e2a278b25f1bc881cd678282f4f02812527514"/>
+  <project name="meta-freescale-internal" path="sources/meta-freescale-internal" remote="fsl-release" revision="220bff8b2030e5af7393b5870d74c6f0af0d76d1"/>
   <project name="meta-fsl-demos" path="sources/meta-fsl-demos" remote="freescale" revision="17f9da65efb5c65c1d44b5cc18584034b29a742b"/>
   <project name="meta-java" path="sources/meta-java" remote="yocto" revision="d5a2a31aaad8f6bdf19860f7a858b10d7dba08b6"/>
   <project name="meta-linaro" path="sources/meta-linaro" remote="linaro" revision="3f1933242062d1cf473d20b86fa4582963ff9441"/>
