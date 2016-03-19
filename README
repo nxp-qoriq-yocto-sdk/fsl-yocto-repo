@@ -15,7 +15,7 @@ Download the BSP source:
 $: PATH=${PATH}:~/bin
 $: mkdir fsl-yocto-bsp
 $: cd fsl-yocto-bsp
-$: repo init -u http://sw-stash.freescale.net/scm/yocto/fsl-yocto-repo.git -b fido_freescale_qoriq_sdk_v1.9
+$: repo init -u http://sw-stash.freescale.net/scm/yocto/fsl-yocto-repo.git -b jethro_freescale_qoriq_sdk_v2.0
 $: repo sync
-$: MACHINE=<board> . ./fsl-setup-env <build-dir>
+$: . ./fsl-setup-env -m p4080ds
 
