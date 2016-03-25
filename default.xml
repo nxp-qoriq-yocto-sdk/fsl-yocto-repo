@@ -24,9 +24,9 @@
   <project name="meta-selinux" path="sources/meta-selinux" remote="yocto" revision="2188d5b09b8f79cce935890ad814b0afafa09b9c"/>
   <project name="meta-virtualization" path="sources/meta-virtualization" remote="yocto" revision="a4aa3e7852e40870f49f830f74c77366eb5a32f3"/>
   <project name="poky" path="sources/poky" remote="yocto" revision="53f0290658256f57c6e5d24459763eb96db2c1c1"/>
-  <project name="yocto/meta-freescale" path="sources/meta-freescale" remote="fsl-private" revision="beb0126b0cf02f001b799580f3f74316b6e96a13">
+  <project name="yocto/meta-freescale" path="sources/meta-freescale" remote="fsl-private" revision="82b5b6f2e9a4fc30a890d8cf0544f3493d538734">
     <copyfile dest="fsl-setup-env" src="scripts/fsl-setup-env"/>
   </project>
   <project name="yocto/meta-freescale-extra" path="sources/meta-freescale-extra" remote="fsl-private" revision="bee911b027e0480b034674d0ddee3fcb06d2e985"/>
-  <project name="yocto/meta-freescale-internal" path="sources/meta-freescale-internal" remote="fsl-private" revision="aaa00162652053d08d4cd98a10844188228b9c9c"/>
+  <project name="yocto/meta-freescale-internal" path="sources/meta-freescale-internal" remote="fsl-private" revision="431ece2ed3aa8b31cbbe68da56f02f4499b08206"/>
 </manifest>
