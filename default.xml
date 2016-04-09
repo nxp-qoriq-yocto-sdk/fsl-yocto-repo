@@ -22,11 +22,11 @@
   <project name="meta-qt3" path="sources/meta-qt3" remote="yocto" revision="b08996efbfb3b26e62b608f34ebf5e671b36ec61"/>
   <project name="meta-security" path="sources/meta-security" remote="yocto" revision="f9367e71f923fc7d2fb600208e2b97535ea41777"/>
   <project name="meta-selinux" path="sources/meta-selinux" remote="yocto" revision="2188d5b09b8f79cce935890ad814b0afafa09b9c"/>
-  <project name="meta-virtualization" path="sources/meta-virtualization" remote="yocto" revision="c29fe5e3d094a8eb7ec6996fcb9a36ae3aaa68d4"/>
+  <project name="meta-virtualization" path="sources/meta-virtualization" remote="yocto" revision="042425c1d98bdd7e44a62789bd03b375045266f5"/>
   <project name="poky" path="sources/poky" remote="yocto" revision="53f0290658256f57c6e5d24459763eb96db2c1c1"/>
-  <project name="yocto/meta-freescale" path="sources/meta-freescale" remote="fsl-private" revision="3c19ecf0c4bc1cfc99773ab7a865196e2a18a989">
+  <project name="yocto/meta-freescale" path="sources/meta-freescale" remote="fsl-private" revision="db3baf1f0111c29307c00da44264e0c67389b028">
     <copyfile dest="fsl-setup-env" src="scripts/fsl-setup-env"/>
   </project>
   <project name="yocto/meta-freescale-extra" path="sources/meta-freescale-extra" remote="fsl-private" revision="bee911b027e0480b034674d0ddee3fcb06d2e985"/>
-  <project name="yocto/meta-freescale-internal" path="sources/meta-freescale-internal" remote="fsl-private" revision="9986b536b0e1218422d7a7121fed5372a91969e1"/>
+  <project name="yocto/meta-freescale-internal" path="sources/meta-freescale-internal" remote="fsl-private" revision="c34f26d489af46680fd52ae6150ede0b26363cb7"/>
 </manifest>
