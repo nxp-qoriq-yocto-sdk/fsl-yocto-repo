@@ -14,7 +14,7 @@
   
   <project name="dnyocto/meta-fsl-cgl" path="sources/meta-fsl-cgl" remote="fsl-private" revision="668207455cb2e9c731e1b0815f11f46310145d59"/>
   <project name="meta-cgl" path="sources/meta-cgl" remote="yocto" revision="a8a7d8112ac8eb02c5752780dad001ce322291b2"/>
-  <project name="meta-cloud-services" path="sources/meta-cloud-services" remote="yocto" revision="0842ae59ce7f752aabb2459510739ec4fff8b33d"/>
+  <project name="meta-cloud-services" path="sources/meta-cloud-services" remote="yocto" revision="d8bc0d92d0f741e2ea1e6d3d9bc6b7a091d03cfb"/>
   <project name="meta-java" path="sources/meta-java" remote="yocto" revision="8b776ac68f9af4596be3824152bcf0bc6b67fa1d"/>
   <project name="meta-linaro" path="sources/meta-linaro" remote="linaro" revision="10b71bed9cfe76baa22c72806ff814cf85c2f73b"/>
   <project name="meta-openclovis" path="sources/meta-openclovis" remote="joaohf" revision="49f4f21299785a5970d946d13d0688a7c2e452fa"/>
@@ -24,9 +24,9 @@
   <project name="meta-selinux" path="sources/meta-selinux" remote="yocto" revision="2188d5b09b8f79cce935890ad814b0afafa09b9c"/>
   <project name="meta-virtualization" path="sources/meta-virtualization" remote="yocto" revision="042425c1d98bdd7e44a62789bd03b375045266f5"/>
   <project name="poky" path="sources/poky" remote="yocto" revision="53f0290658256f57c6e5d24459763eb96db2c1c1"/>
-  <project name="yocto/meta-freescale" path="sources/meta-freescale" remote="fsl-private" revision="db3baf1f0111c29307c00da44264e0c67389b028">
+  <project name="yocto/meta-freescale" path="sources/meta-freescale" remote="fsl-private" revision="0e29047cfd4c0e029be0632edb6703c4e35f68cf">
     <copyfile dest="fsl-setup-env" src="scripts/fsl-setup-env"/>
   </project>
   <project name="yocto/meta-freescale-extra" path="sources/meta-freescale-extra" remote="fsl-private" revision="bee911b027e0480b034674d0ddee3fcb06d2e985"/>
-  <project name="yocto/meta-freescale-internal" path="sources/meta-freescale-internal" remote="fsl-private" revision="c34f26d489af46680fd52ae6150ede0b26363cb7"/>
+  <project name="yocto/meta-freescale-internal" path="sources/meta-freescale-internal" remote="fsl-private" revision="57ce619fa93184f17d4e992ccef1ee285010ae08"/>
 </manifest>
