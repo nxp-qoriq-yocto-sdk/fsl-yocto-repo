@@ -16,7 +16,7 @@
   <project remote="oe" revision="a19aa29f7fa336cd075b72c496fe1102e6e5422b" name="meta-openembedded" path="sources/meta-openembedded"/>
   <project remote="github" revision="51d8a99f761be89a83e8643187e46260de8e2eb9" name="Freescale/meta-freescale-distro" path="sources/meta-freescale-distro"/>
   <project remote="stash" revision="67c91e3ea4e08f4bc48e2e24c8cefea3571d0d09" name="meta-qoriq-demos" path="sources/meta-qoriq-demos"/>
-  <project remote="stashvnp" revision="103e7050e98efc0bb1bb99dba87b50d48c694ebc" name="meta-vnp" path="sources/meta-vnp">
+  <project remote="stashvnp" revision="f2094286c17550a8f23711bc52cd069c1495b350" name="meta-vnp" path="sources/meta-vnp">
     <copyfile dest="setup-env" src="setup-vnp-env"/>
   </project>
 </manifest>
