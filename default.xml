@@ -22,7 +22,7 @@
   <project name="meta-selinux" path="sources/meta-selinux" remote="yocto" revision="2188d5b09b8f79cce935890ad814b0afafa09b9c"/>
   <project name="meta-virtualization" path="sources/meta-virtualization" remote="yocto" revision="042425c1d98bdd7e44a62789bd03b375045266f5"/>
   <project name="poky" path="sources/poky" remote="yocto" revision="53f0290658256f57c6e5d24459763eb96db2c1c1"/>
-  <project name="meta-nxp-npi" path="sources/meta-nxp-npi-ga" remote="fsl-public" revision="cacbad18c56d3ce26d0d22dd28aacd1dc9611c9a"/>
+  <project name="meta-nxp-npi" path="sources/meta-nxp-npi-ga" remote="fsl-public" revision="7531543b38bd3625a7236a72f042e9149fbd7cc3"/>
   <project name="meta-freescale" path="sources/meta-freescale" remote="fsl-public" revision="8e518148bf9ac846e41998b913f3680b0f4db1bb">
     <copyfile dest="fsl-setup-env" src="scripts/fsl-setup-env"/>
   </project>
